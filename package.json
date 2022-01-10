@@ -1,0 +1,26 @@
+{
+  "name": "quote-skill-marusya",
+  "version": "1.0.0",
+  "description": "Skill with daily quotes for Marusya voice assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rofeldsp/quote-skill-marusya.git"
+  },
+  "author": "Igor Krasnov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rofeldsp/quote-skill-marusya/issues"
+  },
+  "homepage": "https://github.com/rofeldsp/quote-skill-marusya#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "ramda": "^0.27.1",
+    "server": "^1.0.37"
+  }
+}
