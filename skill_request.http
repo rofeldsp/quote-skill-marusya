@@ -1,0 +1,34 @@
+POST http://localhost:3000/webhook
+Content-Type: application/json
+
+{
+  "meta": {
+    "client_id": "MailRu-VC/1.0",
+    "locale": "ru_RU",
+    "timezone": "Europe/Moscow",
+    "interfaces": {},
+    "_city_ru": "Москва"
+  },
+  "request": {
+    "command": "sdfsaf",
+    "original_utterance": "sdfsaf",
+    "type": "SimpleUtterance"
+  },
+  "session": {
+    "session_id": "a75de927-b0c8-41fb-ae17-62ff32d1e3a7",
+    "user_id": "15c8f39efb306497a0d5598cb22944f027ff153584666044dd39cf2984d26dc6",
+    "skill_id": "52401ef1-935a-49ef-bd57-1f3f83ac3447",
+    "new": false,
+    "message_id": 2,
+    "application": {
+      "application_id": "15c8f39efb306497a0d5598cb22944f027ff153584666044dd39cf2984d26dc6",
+      "application_type": "mail"
+    },
+    "auth_token": "636d5f7d6fb18e1aff48bb161ab82de12012fec213a0bf2e9a9efd8b7825c69c"
+  },
+  "state": {
+    "session": {},
+    "user": {}
+  },
+  "version": "1.0"
+}
